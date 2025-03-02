@@ -1,3 +1,4 @@
+````markdown name=README.md
 # 🌟 Temp Mail CLI 🌟
 
 <div align="center">
@@ -13,7 +14,7 @@
   <img src="https://github.com/user-attachments/assets/5ccb76e9-6549-4b98-bce4-237cecfbedae" alt="Temp Mail CLI Logo" width="300" />
 </p>
 
-A sophisticated command-line interface for creating and managing temporary email addresses using the mail.tm API. Designed with elegance and functionality in mind, this tool provides a seamless experience for handling disposable emails directly from your terminal.
+A sophisticated command-line interface for creating and managing temporary email addresses using the mail.tm API. Designed with elegance and functionality in mind, this tool provides a seamless expe[...]
 
 ## ✨ Features
 
@@ -55,6 +56,18 @@ A sophisticated command-line interface for creating and managing temporary email
         </ul>
       </td>
     </tr>
+    <tr>
+      <td colspan="2">
+        <h3>🔒 Coming Soon: Enhanced Privacy System</h3>
+        <ul>
+          <li>Complete request masking for total anonymity</li>
+          <li>Advanced proxy integration for untraceable connections</li>
+          <li>Multiple privacy-focused techniques to ensure your right to privacy</li>
+          <li>Full encryption of all communications for maximum security</li>
+          <li>Browser extension support for on-the-go temporary email access</li>
+        </ul>
+      </td>
+    </tr>
   </table>
 </div>
 
@@ -73,6 +86,9 @@ pip install -r requirements.txt
 # Run the application
 python temp_mail.py
 ```
+
+In a following update, a system will be added that will mask everything and make everything fully and totally anonymous and very private using proxies and different techniques because everyone has the right to be private and enforce privacy. This update will also contain a browser extension which will be integrated with the browser to make things quicker and more convenient.
+
 
 ## 🚀 Usage
 
@@ -157,7 +173,6 @@ def extract_verification_links(text):
     return verification_links
 ```
 
-
 ## 📊 Screenshots
 
 <div align="center">
@@ -201,3 +216,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <p>Made with ❤️ by ALLY</p>
   <p>⭐ Star this repository if you find it useful! ⭐</p>
 </div>
+
+````
