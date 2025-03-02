@@ -157,11 +157,12 @@ def extract_verification_links(text):
     return verification_links
 ```
 
+
 ## 📊 Screenshots
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Ally-Released/temp-mail-cli/main/assets/screenshot1.png" alt="Main Menu" width="45%" />
-  <img src="https://raw.githubusercontent.com/Ally-Released/temp-mail-cli/main/assets/screenshot2.png" alt="Email Monitoring" width="45%" />
+  <img src="https://github.com/user-attachments/assets/448ccb79-3487-4e6d-af11-2a9dd35593c9" alt="Main Menu" width="45%" />
+  <img src="https://github.com/user-attachments/assets/f34bc0a0-31f2-40a9-87b5-8f9bba24b704" alt="Email Monitoring" width="45%" />
 </div>
 
 ## 🛠️ Technologies Used
@@ -193,7 +194,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgements
 
 - [mail.tm](https://mail.tm) for providing the API
-- All the contributors and users of this project
 
 ---
 
