@@ -4,13 +4,14 @@
   
 ![Temp Mail CLI](https://img.shields.io/badge/Temp%20Mail-CLI-8A2BE2?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.7+-4B8BBE?style=for-the-badge&logo=python&logoColor=white)
+
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg?style=for-the-badge)
 
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ally-Released/temp-mail-cli/main/assets/logo.png" alt="Temp Mail CLI Logo" width="300" />
+  ![1__2_-removebg-preview](https://github.com/user-attachments/assets/5ccb76e9-6549-4b98-bce4-237cecfbedae)
 </p>
 
 A sophisticated command-line interface for creating and managing temporary email addresses using the mail.tm API. Designed with elegance and functionality in mind, this tool provides a seamless experience for handling disposable emails directly from your terminal.
