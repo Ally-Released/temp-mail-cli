@@ -1,4 +1,4 @@
-````markdown name=README.md
+
 # 🌟 Temp Mail CLI 🌟
 
 <div align="center">
@@ -217,4 +217,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <p>⭐ Star this repository if you find it useful! ⭐</p>
 </div>
 
-````
