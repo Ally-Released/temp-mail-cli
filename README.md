@@ -2,12 +2,13 @@
 
 <div align="center">
   
-![Temp Mail CLI](https://github.com/user-attachments/assets/18ab83b2-e3de-4a75-8a5f-f8c994e95456)
+![Temp Mail CLI](https://github.com/user-attachments/assets/0ff06fce-b35d-4113-a20a-10d673fd8d82)
 ![Python](https://img.shields.io/badge/Python-3.7+-4B8BBE?style=for-the-badge&logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg?style=for-the-badge)
 
-</div>
+</div>!
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5ccb76e9-6549-4b98-bce4-237cecfbedae" alt="Temp Mail CLI Logo" width="300" />
