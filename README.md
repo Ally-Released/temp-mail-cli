@@ -13,6 +13,12 @@
   <img src="https://github.com/user-attachments/assets/18ab83b2-e3de-4a75-8a5f-f8c994e95456" alt="Temp Mail CLI Logo" width="300" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/Ally-Released/temp-mail-cli/releases/">
+    <img src="https://img.shields.io/badge/Download-v2.0.0-blue?style=for-the-badge&logo=download" alt="Download">
+  </a>
+</p>
+
 A sophisticated command-line interface for creating and managing temporary email addresses using the mail.tm API. Designed with elegance and functionality in mind, this tool provides a seamless experience for email management.
 
 ## ✨ Features
@@ -94,9 +100,7 @@ A sophisticated command-line interface for creating and managing temporary email
     - The extension will be installed permanently.
 
    ![Enable Developer Options](https://github.com/user-attachments/assets/781d8bba-5969-44c5-a556-1f7ea5d75d67)
-   ![Load Unpacked](https://github.com/user-attachments/assets/781d8bba-5969-44c5-a556-1f7ea5d75d67)
    ![Select Folder](https://github.com/user-attachments/assets/3f3faaaf-b278-46ee-9136-03d669bbe3fc)
-   ![Click Open](https://github.com/user-attachments/assets/3f3faaaf-b278-46ee-9136-03d669bbe3fc)
 
 ### Lazy Mode
 
@@ -120,38 +124,31 @@ cd temp-mail-cli
 
 # Install the required dependencies
 pip install -r requirements.txt
-
-# Run the application
-python temp_mail.py
 ```
+
+The easiest way to use Temp Mail CLI is to double-click the `install_and_run.bat` file.
 
 ## 🚀 Usage
 
-### Interactive Menu Mode
+### Command Line Interface (CLI)
 
-The easiest way to use Temp Mail CLI is through its interactive menu:
+1. Open the folder containing the `install_and_run.bat` file.
+2. Double-click the `install_and_run.bat` file to start the application.
+
+Alternatively, you can run the application using the command line:
 
 ```bash
 python temp_mail.py
 ```
 
-### Command Line Interface
+### Browser Extension
 
-Temp Mail CLI also provides a powerful command-line interface:
+To use the browser extension of Temp Mail, you first need to install it:
 
-```bash
-# Create a new temporary email
-python temp_mail.py create
+1. Double-click the `install_extention.bat` file to install it temporarily.
+2. For permanent installation, enable developer options in your browser's extensions settings, click on "Load Unpacked", and select the `browser_extention` folder.
 
-# Check for new messages
-python temp_mail.py check
-
-# Read a specific message
-python temp_mail.py read MESSAGE_ID
-
-# Monitor for new messages
-python temp_mail.py monitor --interval 30
-```
+Once installed, click the Temp Mail extension icon to use the extension.
 
 ## 🔮 How It Works
 
@@ -200,8 +197,8 @@ def extract_verification_links(text):
     urls = re.findall(url_pattern, text)
     
     # Filter for verification-like URLs
-    verification_keywords = ['verify', 'confirmation', 'activate']
-    verification_links = [url for url in urls 
+    verification_keywords are ['verify', 'confirmation', 'activate']
+    verification_links are [url for url in urls 
                          if any(keyword in url.lower() 
                                for keyword in verification_keywords)]
     
@@ -226,16 +223,13 @@ def extract_verification_links(text):
 - **PyperClip**: Clipboard integration
 - **Regex**: Pattern matching for OTP extraction
 
-## 🔗 Connect with the Developer
+## 🔗 Connect with Me
 
 <div align="center">
   
-[![GitHub](https://img.shields.io/badge/GitHub-Ally--Released-181717?style=for-the-badge&logo=github)](https://github.com/Ally-Released)
-[![Discord](https://img.shields.io/badge/Discord-demons__arc-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/tqcSc3qV3R)
+[![BlueSky](https://img.shields.io/badge/BlueSky-lulzsec--ally.bsky.social-3B82F6?style=for-the-badge&logo=bluesky)](https://bsky.app/profile/@lulzsec-ally.bsky.social)
+[![X](https://img.shields.io/badge/X-Iamnotlol2-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/Iamnotlol2)
 [![YouTube](https://img.shields.io/badge/YouTube-Ally--released-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@Ally-released)
-[![Instagram](https://img.shields.io/badge/Instagram-sparkling.soul.aura-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/sparkling.soul.aura/)
-[![Twitter](https://img.shields.io/badge/Twitter-Iamnotlol2-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/Iamnotlol2)
-[![BlueSky](https://img.shields.io/badge/BlueSky-lulzsec--ally.bsky.social-3B82F6?style=for-the-badge&logo=bluesky)](https://bsky.app/profile/lulzsec-ally.bsky.social)
 
 </div>
 
@@ -246,39 +240,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgements
 
 - [mail.tm](https://mail.tm) for providing the API
-
-## 🔮 Upcoming Features
-
-### Browser Extension with Lazy Mode
-
-Our upcoming browser extension will include a powerful "Lazy Mode" feature that makes temporary email usage completely seamless:
-
-#### Lazy Mode Features
-- **Auto-fill Email Fields**: Automatically detects email input fields on websites and fills them with your temporary email.
-- **Auto-submit Verification Codes**: When verification codes arrive in your inbox, they're automatically extracted and entered on the verification page.
-- **Smart Context Detection**: Intelligently recognizes signup flows and verification pages.
-- **Toggle Control**: Enable/disable with a single click.
-- **Site-specific Settings**: Configure which websites get auto-fill and auto-verification.
-
-#### How It Works
-1. The extension monitors DOM elements on web pages to identify email input fields.
-2. When an email field is detected, it inserts your current temporary email.
-3. After form submission, the extension monitors your temporary inbox for incoming verification messages.
-4. When a message contains a verification code, the extension extracts it and auto-fills it on the currently open verification page.
-
-#### Technical Implementation
-The extension uses these technologies:
-- **Content Scripts**: For webpage interaction and form filling.
-- **Background Service Worker**: For temporary email API communication.
-- **MutationObserver API**: To detect dynamically loaded email fields.
-- **Pattern Recognition**: For verification code identification across various formats.
-
-#### Privacy and Security
-- All processing happens locally on your device.
-- No data is sent to third-party servers.
-- Open-source code for maximum transparency.
-
-Stay tuned for the release of our browser extension with Lazy Mode!
 
 ---
 
