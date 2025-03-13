@@ -1,4 +1,3 @@
-
 # 🌟 Temp Mail CLI 🌟
 
 <div align="center">
@@ -209,6 +208,39 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgements
 
 - [mail.tm](https://mail.tm) for providing the API
+
+## 🔮 Upcoming Features
+
+### Browser Extension with Lazy Mode
+
+Our upcoming browser extension will include a powerful "Lazy Mode" feature that makes temporary email usage completely seamless:
+
+#### Lazy Mode Features
+- **Auto-fill Email Fields**: Automatically detects email input fields on websites and fills them with your temporary email
+- **Auto-submit Verification Codes**: When verification codes arrive in your inbox, they're automatically extracted and entered on the verification page
+- **Smart Context Detection**: Intelligently recognizes signup flows and verification pages
+- **Toggle Control**: Enable/disable with a single click
+- **Site-specific Settings**: Configure which websites get auto-fill and auto-verification
+
+#### How It Works
+1. The extension monitors DOM elements on web pages to identify email input fields
+2. When an email field is detected, it inserts your current temporary email
+3. After form submission, the extension monitors your temporary inbox for incoming verification messages
+4. When a message contains a verification code, the extension extracts it and auto-fills it on the currently open verification page
+
+#### Technical Implementation
+The extension uses these technologies:
+- **Content Scripts**: For webpage interaction and form filling
+- **Background Service Worker**: For temporary email API communication
+- **MutationObserver API**: To detect dynamically loaded email fields
+- **Pattern Recognition**: For verification code identification across various formats
+
+#### Privacy and Security
+- All processing happens locally on your device
+- No data is sent to third-party servers
+- Open-source code for maximum transparency
+
+Stay tuned for the release of our browser extension with Lazy Mode!
 
 ---
 
