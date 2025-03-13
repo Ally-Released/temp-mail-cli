@@ -2,7 +2,7 @@
 
 <div align="center">
   
-![Temp Mail CLI](https://img.shields.io/badge/Temp%20Mail-CLI-8A2BE2?style=for-the-badge)
+![Temp Mail CLI](https://github.com/user-attachments/assets/18ab83b2-e3de-4a75-8a5f-f8c994e95456)
 ![Python](https://img.shields.io/badge/Python-3.7+-4B8BBE?style=for-the-badge&logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg?style=for-the-badge)
@@ -13,7 +13,7 @@
   <img src="https://github.com/user-attachments/assets/5ccb76e9-6549-4b98-bce4-237cecfbedae" alt="Temp Mail CLI Logo" width="300" />
 </p>
 
-A sophisticated command-line interface for creating and managing temporary email addresses using the mail.tm API. Designed with elegance and functionality in mind, this tool provides a seamless expe[...]
+A sophisticated command-line interface for creating and managing temporary email addresses using the mail.tm API. Designed with elegance and functionality in mind, this tool provides a seamless experience for email management.
 
 ## ✨ Features
 
@@ -57,7 +57,7 @@ A sophisticated command-line interface for creating and managing temporary email
     </tr>
     <tr>
       <td colspan="2">
-        <h3>🔒 Coming Soon: Enhanced Privacy System</h3>
+        <h3>🔒 Enhanced Privacy System</h3>
         <ul>
           <li>Complete request masking for total anonymity</li>
           <li>Advanced proxy integration for untraceable connections</li>
@@ -85,9 +85,6 @@ pip install -r requirements.txt
 # Run the application
 python temp_mail.py
 ```
-
-In a following update, a system will be added that will mask everything and make everything fully and totally anonymous and very private using proxies and different techniques because everyone has the right to be private and enforce privacy. This update will also contain a browser extension which will be integrated with the browser to make things quicker and more convenient.
-
 
 ## 🚀 Usage
 
@@ -248,4 +245,3 @@ Stay tuned for the release of our browser extension with Lazy Mode!
   <p>Made with ❤️ by ALLY</p>
   <p>⭐ Star this repository if you find it useful! ⭐</p>
 </div>
-
