@@ -174,6 +174,8 @@ def extract_verification_links(text):
 <div align="center">
   <img src="https://github.com/user-attachments/assets/448ccb79-3487-4e6d-af11-2a9dd35593c9" alt="Main Menu" width="45%" />
   <img src="https://github.com/user-attachments/assets/f34bc0a0-31f2-40a9-87b5-8f9bba24b704" alt="Email Monitoring" width="45%" />
+  <img src="https://github.com/user-attachments/assets/e642b6f8-0845-4df3-8244-783a5dfe1164" alt="Email Monitoring" width="45%" />
+
 </div>
 
 ## 🛠️ Technologies Used
