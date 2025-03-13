@@ -70,6 +70,45 @@ A sophisticated command-line interface for creating and managing temporary email
   </table>
 </div>
 
+## 🌐 Browser Extension
+
+### Supported Browsers
+<div align="center">
+  <img src="https://img.shields.io/badge/Brave-orange?logo=brave&logoColor=white&style=for-the-badge" alt="Brave">
+  <img src="https://img.shields.io/badge/Chrome-blue?logo=google-chrome&logoColor=white&style=for-the-badge" alt="Chrome">
+  <img src="https://img.shields.io/badge/Edge-blue?logo=microsoft-edge&logoColor=white&style=for-the-badge" alt="Edge">
+  <img src="https://img.shields.io/badge/Firefox-orange?logo=firefox-browser&logoColor=white&style=for-the-badge" alt="Firefox">
+</div>
+
+### Installation Options:
+
+1. **Temporary Installation:**
+    - Double-click the `install_extention.bat` file.
+    - This will install the extension on your desired browser.
+    - **Note:** The extension will be removed once the browser is restarted.
+
+2. **Permanent Installation:**
+    - Enable developer options in your browser's extensions settings.
+    - Click on "Load Unpacked".
+    - Select the folder named `browser_extention`.
+    - The extension will be installed permanently.
+
+   ![Enable Developer Options](https://github.com/user-attachments/assets/781d8bba-5969-44c5-a556-1f7ea5d75d67)
+   ![Load Unpacked](https://github.com/user-attachments/assets/781d8bba-5969-44c5-a556-1f7ea5d75d67)
+   ![Select Folder](https://github.com/user-attachments/assets/3f3faaaf-b278-46ee-9136-03d669bbe3fc)
+   ![Click Open](https://github.com/user-attachments/assets/3f3faaaf-b278-46ee-9136-03d669bbe3fc)
+
+### Lazy Mode
+
+Our browser extension includes a powerful "Lazy Mode" feature that makes temporary email usage completely seamless:
+
+#### Lazy Mode Features
+- **Auto-fill Email Fields**: Automatically detects email input fields on websites and fills them with your temporary email.
+- **Auto-submit Verification Codes**: When verification codes arrive in your inbox, they're automatically extracted and entered on the verification page.
+- **Smart Context Detection**: Intelligently recognizes signup flows and verification pages.
+- **Toggle Control**: Enable/disable with a single click.
+- **Site-specific Settings**: Configure which websites get auto-fill and auto-verification.
+
 ## 📥 Installation
 
 ```bash
@@ -215,29 +254,29 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Our upcoming browser extension will include a powerful "Lazy Mode" feature that makes temporary email usage completely seamless:
 
 #### Lazy Mode Features
-- **Auto-fill Email Fields**: Automatically detects email input fields on websites and fills them with your temporary email
-- **Auto-submit Verification Codes**: When verification codes arrive in your inbox, they're automatically extracted and entered on the verification page
-- **Smart Context Detection**: Intelligently recognizes signup flows and verification pages
-- **Toggle Control**: Enable/disable with a single click
-- **Site-specific Settings**: Configure which websites get auto-fill and auto-verification
+- **Auto-fill Email Fields**: Automatically detects email input fields on websites and fills them with your temporary email.
+- **Auto-submit Verification Codes**: When verification codes arrive in your inbox, they're automatically extracted and entered on the verification page.
+- **Smart Context Detection**: Intelligently recognizes signup flows and verification pages.
+- **Toggle Control**: Enable/disable with a single click.
+- **Site-specific Settings**: Configure which websites get auto-fill and auto-verification.
 
 #### How It Works
-1. The extension monitors DOM elements on web pages to identify email input fields
-2. When an email field is detected, it inserts your current temporary email
-3. After form submission, the extension monitors your temporary inbox for incoming verification messages
-4. When a message contains a verification code, the extension extracts it and auto-fills it on the currently open verification page
+1. The extension monitors DOM elements on web pages to identify email input fields.
+2. When an email field is detected, it inserts your current temporary email.
+3. After form submission, the extension monitors your temporary inbox for incoming verification messages.
+4. When a message contains a verification code, the extension extracts it and auto-fills it on the currently open verification page.
 
 #### Technical Implementation
 The extension uses these technologies:
-- **Content Scripts**: For webpage interaction and form filling
-- **Background Service Worker**: For temporary email API communication
-- **MutationObserver API**: To detect dynamically loaded email fields
-- **Pattern Recognition**: For verification code identification across various formats
+- **Content Scripts**: For webpage interaction and form filling.
+- **Background Service Worker**: For temporary email API communication.
+- **MutationObserver API**: To detect dynamically loaded email fields.
+- **Pattern Recognition**: For verification code identification across various formats.
 
 #### Privacy and Security
-- All processing happens locally on your device
-- No data is sent to third-party servers
-- Open-source code for maximum transparency
+- All processing happens locally on your device.
+- No data is sent to third-party servers.
+- Open-source code for maximum transparency.
 
 Stay tuned for the release of our browser extension with Lazy Mode!
 
